@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tanoue - Testes</title>
+    </head>
+    <body>
+        <textarea id="script" rows="25" cols="80" onchange="parseForm()"></textarea>
+        <div id="form" style="float: right;"></div>
+
+        <p></p>
+
+        <form>
+            Nome: <input type="text" name="nome"><br>
+            Email: <input type="email" name="email"><br>
+            Check: <input type="checkbox" name="check"><br>
+            Radio: <input type="radio" name="radiobutton"><br>
+            Select:
+            <select name="selection">
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+            </select><br>
+            Select Múltiplo:
+            <select name="selectionm" multiple>
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+            </select><br>
+            Datalist: <input list="browsers">
+            <datalist id="browsers">
+                <option value="Internet Explorer">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist><br>
+            CC: <input type="number" name="Payment.CreditCardNumber"><br>
+            Senha: <input type="password" value="senha"><br>
+            Dá-le: <input type="submit" name="enviar" value="Enviar">
+        </form>
+
+        <form name="simple-form" style="float: right;" action="https://cristofolini.dev/404" >
+            Nome: <input type="text" name="nome"><br>
+            Email: <input type="email" name="email"><br>
+            Vai: <input type="submit" name="enviar" value="Enviar">
+        </form>
+
+        <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/7c31c3fd-4847-4486-8ff7-affef1ac6b5f-loader.js" ></script>
+        <script type="text/javascript" async src="fn.js" ></script>
+    </body>
+</html>
